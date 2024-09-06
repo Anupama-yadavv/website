@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+    overflow-x: hidden;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+h2, h3, h4{
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+}
+
+button, .btn{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+/* 👀🎇🎇🎇 code start from here */
+
+/* header section code start 🤺🤺🤺 */
+.sub-header {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.nav-link {
+    padding: 0 20px !important;
+    font-size: 19px !important;
+}
+
+.topheader{
+    background-color: #556630!important;
+    padding-left: 80px !important;
+    padding-right: 100px !important;  
+    color: white;
+}
+
+.topicon a i{
+    color: white;
+    font-size: 15px;
+}
+
+.mainheader{
+    padding-left: 48px !important;
+    padding-right: 69px !important;   
+}
+
+/* header section code end 🤺🤺🤺🤺 */
+
+/* HERO SECTION CODE START 🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍*/
+
+.hero-section {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-carousel .carousel-item {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.btn-hero a {
+    background-color: #fff;
+}
+
+.btn-hero a:hover {
+    background-color: #fff !important;
+    color: green;
+}
+
+.hero-content h1{
+font-size: 50px;
+}
+
+.hero-content p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 120px;
+    padding-bottom: 20px;
+
+    }
+
+/* HERO SECTION CODE END 🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍*/
+
+/* SERVICE SECTION START FROM HERE🎡🎡🎡🎡 */
+
+.service-section{
+    padding: 80px 0;
+}
+.servicerow{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.servicecirl img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.servicecirl{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+.small-circle{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #ffa226;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: -110px;
+    position: absolute;
+    color: white;   
+}
+
+.sertext{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.serte{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.sertex{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.ciersmall{
+    background-color: #10b6fe !important;
+}
+
+.ciersmalll{
+    background-color: #f82e56 !important;
+}
+
+ /* SERVICE SECTION END 🎡🎡🎡🎡 */ 
+
+  /* ABOUT US SECTION START FROM HERE🌍🌍🌍🌍 */ 
+
+  .bg-image {
+    background-image: url('./aboutimg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 800px; 
+}
+
+.about-one {
+    padding: 20px;
+    background: #ffa226; 
+    display: inline-block;
+}
+
+.aboutheading{
+    display: inline-block !important;
+    font-size: 80px !important;
+}
+
+.about-crd {
+    border: none !important;
+    padding-bottom: 50px !important;
+}
+
+.abouttwoo{
+    background-color: #f6f3ec !important;
+    padding-right: 50px !important;
+}
+
+.content-wrapper {
+    padding-top: 140px!important;
+    padding-left: 100px !important;
+}
+
+.aboutt{
+    padding-top: 140px !important;
+}
+
+/* OUR EXPERT SECTION START FROM HERE 💥💥💥💥 */
+
+.expert-image {
+width: 300px !important; 
+height: 300px !important; 
+object-fit: cover; 
+object-position: top center!important; 
+border: 5px solid #fff; 
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.expertt-section{
+    padding: 60px 0;
+}
+
+.expert-heading {
+    padding: 5px 10px !important;
+    background: #ffa226; 
+    display: inline-block;
+    color: white;
+}
+
+.expert-text{
+    margin-top: -10px !important;
+}
+
+/* OUR EXPERT SECTION END 💥💥💥💥 */
+
+/* LAST TIMING SECTION START FROM HERE 💢💥💦💥💢💦*/
+
+.custom-section {
+    background-color: #f6f3ec; 
+}
+
+
+.timing-section{
+    background-color: #c0d19d;
+    height: 400px !important;
+    margin-top: 20px !important;
+}
+
+.last-one{
+   margin-right: -50px !important;
+   width: 30% !important;
+}
+
+.last-two{
+    margin-left: -50px !important;
+    width: 30% !important;
+}
+
+.lastt-three{
+    width: 37% !important;
+}
+
+.timing-details li {
+    margin-bottom: 0.5rem;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.animate-up-down {
+    animation: moveUpDown 5s infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); 
+    }
+}
+
+.custom-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* LAST TIMING SECTION END 💢💥💦💥💢💦*/
+
+ /* FOOTER SECTION START 🌸🌸🌸🌸🌸  */
+
+ .footer {
+    background-color: #f8f9fa; /* Light background for the footer */
+    color: #333; /* Dark text color */
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-paragraph {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    padding: 1rem;
+}
+
+.footer-links ul {
+    padding-left: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.footer-address {
+    margin-bottom: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between icons */
+}
+
+.footer-icon {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer-icon:hover {
+    color: #007bff;
+}
+
+/* Center the copyright text */
+copyright-text {
+    margin-bottom: 0;
+    color: #6c757d; /* Optional: lighter text color for copyright */
+}
+
+ /* FOOTER SECTION START 🌸🌸🌸🌸🌸  */
+
+ .footer {
+    background-color: #556630; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: left; 
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff; 
+    text-align: left; 
+}
+
+.btn-secondary{
+    display: inline-block !important;
+    background-color: #556630 !important;
+    outline: none !important;
+    border: none !important;
+    text-align: left !important ;
+    padding: 0 !important;
+    font-size: 14px !important;
+    font-weight: 300px !important;
+}
+
+.btn-secondary:hover{
+    color: #c0d19d !important;
+}
+
+
+.footer-paragraph {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    color: #fff; 
+    text-align: left; 
+    font-weight: 300;
+    padding-right: 100px;
+}
+
+
+.footer-links a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    text-align: left; 
+    display: inline-block; 
+}
+
+.footer-links a:hover {
+    color: #c0d19d; 
+    text-decoration: underline; 
+}
+
+.footer-contact {
+    text-align: left; 
+}
+
+.footer-address {
+    margin-bottom: 1rem;
+    color: #fff; 
+    text-align: left; 
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: left;
+    gap: 1rem; 
+}
+
+.footer-icon {
+    color: #fff; 
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.footer-icon:hover {
+color: #c0d19d; 
+}
+
+.copyright-text {
+margin-bottom: 0;
+color: #fff; 
+text-align:center; 
+font-size: 14px !important;
+font-weight: 300 !important;
+}
+
+.list-unstyled li a{
+text-decoration: none !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+}
+
+.footer-address{
+font-size: 14px !important;
+font-weight: 300 !important;
+text-decoration: none !important; 
+}
+
+.footer-address p{
+font-size: 14px !important;
+font-weight: 300 !important;
+text-decoration: none !important; 
+}
+
+
+.footer-address :hover{
+color: #c0d19d !important;
+}
+
+/* FOOTER SECTION END 🌸🌸🌸🌸🌸  */
+
+/* NEXT PAGE ABOUT US CODE==================================== */
+
+/* this code is banner section of all sub page banner🌟🌟 */
+.about-us-banner {
+    background-image: url('./banner-one.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Default height */
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.about-us-text {
+    font-size: 36px; /* Default font size */
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+}
+
+/* this code is banner section of all sub page banner🌟🌟 */
+
+/* contact page code 🔅💥💥*/
+
+.contact-section {
+    padding: 50px 0;
+}
+.contact-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.contact-section .form-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 💠💠💠💠💠💠💠💠TAB RESPONSIVE CODE HERE💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠 */
+
+/* RESPONSIVE CODE FOR TABLET HERE 🤺🤺🤺🤺 */
+@media (min-width: 768px) and (max-width: 991px) {
+    .topheader{
+        padding-left: 30px !important;
+        padding-right: 30px !important;  
+    }
+
+    .mainheader{
+        padding-left: 0px !important;
+        padding-right: 20px !important;   
+    }
+/* BANNER */
+.hero-section {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-carousel .carousel-item {
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content p{
+    padding: 0 50px;
+    padding-bottom: 20px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+        }
+
+ /* service */
+     .servicecirl{
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+    }   
+.small-circle{
+height: 130px;
+width: 130px;
+border-radius: 50%;
+margin-left: 47px;
+}
+
+/* about us */
+.content-wrapper {
+padding-top: 160px!important;
+padding-left: 10px !important;
+}
+
+.aboutheading{
+font-size: 50px !important;
+}
+
+.abouttwoo{
+    background-color: #f6f3ec !important;
+    padding-right: 0px !important;
+}
+
+.timing-section{
+    background-color: #c0d19d;
+    height: 400px !important;
+    margin-top: 20px !important;
+}
+
+.last-one{
+   margin-right: -40px !important;
+   width: 35% !important;
+}
+
+.last-two{
+    margin-left: -40px !important;
+    width: 35% !important;
+}
+
+.lastt-three{
+    width: 40% !important;
+}
+
+}
+
+/* 💠💠💠💠END💠💠💠💠💠 */
+
+/* 🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡MOBILE RESPONSIVE CODE HERE🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡 */
+
+/* RESPONSIVE CODE FOR MOBILE HERE 🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍 */
+
+@media (max-width: 767px) {
+    .topheader{
+        display: none;
+    }
+    .mainheader{
+        padding-left: 0px !important;
+        padding-right: 0px !important;   
+    }
+/* banner */
+
+.hero-section {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-carousel .carousel-item {
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content p{
+    padding: 0 0px;
+    padding-bottom: 20px;
+    }
+    .hero-content h1{
+        font-size: 38px;
+        }
+
+ /* service */
+ .servicecirl{
+    height: 300px;
+    width: 300px;
+    border-radius: 50% !important;
+}   
+
+.small-circle{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+margin-left: 75px !important;
+}
+
+.service-section {
+    padding: 80px 0;
+}
+
+.servicerow {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.ser-phone{
+    margin-top: 60px;
+}
+
+.servicerow {
+    margin-left: 0 !important;
+    margin-right: 0!important;
+}
+
+.service-section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* about us */
+.abouttwoo {
+    padding-right: 0px !important;
+}
+
+.content-wrapper {
+    padding-top: 100px!important;
+    padding-left: 10px !important;
+    align-items: center;
+    }
+    
+    .aboutheading{
+    font-size: 40px !important;
+    }
+    
+    .abouttwoo{
+        background-color: #f6f3ec !important;
+        padding-right: 0px !important;
+    }
+
+    .bg-image {
+    min-height: 500px; 
+    }
+.content-wrapper p{
+    padding-right: 50px !important;
+}
+
+.aboutt {
+    padding-top: 0px !important;
+}
+
+.abouttwoo img {
+height: 100px;
+width: 100px;
+
+}
+
+.about-crd{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-title{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-crd {
+    border: none !important;
+    padding-bottom: 20px !important;
+}
+
+.about-padding{
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+}
+
+/* our expert */
+
+.expert-responsive {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.expertt-section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* timing last section */
+ 
+ .last-one{
+margin-right: 0px !important;
+width: 100% !important;
+height: 280px !important;
+padding-left: 20px !important;
+} 
+
+ .last-two{
+ margin-left:0px !important;
+ width: 100% !important;
+ height: 230px !important;
+ padding-left: 20px !important;
+} 
+
+.lastt-three{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.image-gallery img{
+    width: 100% !important;
+    height: 300px !important;
+    margin: 0px !important;
+    border: none !important;
+}
+
+.timing-section{
+margin-top: 20px !important;
+}
+
+.custom-section{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+}
+/* 🟡🟡🟡🟡🟡🟡END🟡🟡🟡🟡🟡🟡🟡 */
